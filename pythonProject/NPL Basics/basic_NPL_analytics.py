@@ -37,7 +37,7 @@ vectorizer = CountVectorizer()
 lowercase = True,
 strip_accents = "unicode",
 preprocessor = custom_preprocessor,
-tokenizer = lemmatize_tokenize
+
 
 
 
@@ -45,9 +45,8 @@ tokenizer = lemmatize_tokenize
 second_vectorizer = TfidfVectorizer(sublinear_tf=True)
 lowercase = True,
 strip_accents = "unicode",
-sublinear_tf = True,
 preprocessor = custom_preprocessor,
-tokenizer = lemmatize_tokenize
+
 
 
 
